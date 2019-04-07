@@ -65,6 +65,11 @@ angular.module('main', [material,services.name]).controller('mainController', ['
         vm.tabulateVotes = function(){
             debugger;
             vm.planningPoker = playerService.isApproved();
+            if(vm.planningPoker == true){
+                vm.team.forEach(function(t){
+                    //given voting rights.
+                })
+            }
         }
 
         vm.castVote = function(player) {
