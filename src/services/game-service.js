@@ -40,13 +40,13 @@ export default function(cardService){
         });
 
         var cardsInGameType = [
-            new Duke(),
-            new SupportManager(),
-            new Intellewater(),
-            new ChickenParm(),
-            new Nerlin(),
-            new Sniper(),
-            new DevSlayer()
+            // new Duke(),
+            // new SupportManager(),
+            // new Intellewater(),
+            // new ChickenParm(),
+            // new Nerlin(),
+            // new Sniper(),
+            // new DevSlayer()
         ]
         cardService.setup(cardsInGameType); //use this set of cards
         var cards = cardService.shuffle();
